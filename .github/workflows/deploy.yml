@@ -1,5 +1,5 @@
 name: Build and Deploy
-run-name: Deploy docs 🚀
+run-name: Deploy docs1 🚀
 on: [push]
 jobs:
   build-and-deploy-docs:
