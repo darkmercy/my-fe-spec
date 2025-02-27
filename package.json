@@ -5,6 +5,8 @@
   "description": "前端编码规范工程化",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "init": "pnpm i",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
